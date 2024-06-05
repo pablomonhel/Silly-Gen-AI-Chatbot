@@ -13,15 +13,25 @@ Therea are 3 files to install and execute the project, which are in the folder �
 -	“requirements.txt”
 -	“app.py”
 -	“template.txt”
+
 The file “requirements.txt” contains the packages and their versions that need to be installed to run the application:
-streamlit==1.31.0
-langchain==0.1.5
-langchain-openai==0.0.5 
+
+	streamlit==1.31.0	
+
+	langchain==0.1.5
+
+	langchain-openai==0.0.5 
+
 The file “app.py” contains the code to execute the Streamlit application by running the chatbot with Langchain, importing the template, and uploading the necessary images. 
+
 The file “template.txt” contains the COSTAR framework and the few-shot learning examples to create the personality of the spiritual guide. 
-The folder 
+
+The folder "Images" contains the images that are displayed on the Streamlit app. 
+
 The application is opened when running:
+
 	streamlit run app.py
+ 
 The folder “Images” contains the images of each emotion in their respective folders. It also contains the first image that appears when the app is opened inside the “neutral” folder, and the image of the avatar that appears when the spiritual guide outputs text.
 
 2.2.	“other_files” folder. 
