@@ -7,9 +7,7 @@ This is the final Project for the UChicago course MPCS 27300 taught by Michael S
 The final project consists in developing a chatbot with a very specific personality. I created a spiritual guide who considers itself (I tried to make it gender neutral) the connection between the earth and the gods, which do not belong to any existing religion. The spiritual guide has a silly attitude and talks in one of 5 emotions: happy (default), angry, sad, greedy, and ecstatic. Depending on the questions of the user the spiritual guide will answer in one of these emotions, each of which will alter the way he answers (through the output text) and the image that is shown on the application. A user can talk of any topic to the spiritual guide and is encourage to follow his or her emotions and beliefs when talking to it.
 
 2.	Files
-
-2.1.	“app” folder.
-  	
+ 	
 Therea are 3 files to install and execute the project, which are in the folder “app”: 
 -	“requirements.txt”
 -	“app.py”
@@ -34,9 +32,6 @@ The application is opened when running:
 	streamlit run app.py
  
 The folder “Images” contains the images of each emotion in their respective folders. It also contains the first image that appears when the app is opened inside the “neutral” folder, and the image of the avatar that appears when the spiritual guide outputs text.
-
-2.2.	“other_files” folder. 
-This folder contains files created during the development of the project. They are not necessary to run the application and are discussed in section 7. 
 
 3.	Frontend.
 
